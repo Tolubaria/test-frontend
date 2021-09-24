@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+@import "reset";
+@import "mixin-fonts";
+@import "variables";
+@import "_section-header";
+@import "_section-news-feed";
+@import "_section-standards";
+@import "_section-speciality";
+@import "_section-info";
+@import "_section-scrolling";
+@import "_section-most-visited";
+@import "_section-contacts";
+@import "_section-footer";
+
+
+.container {
+    width: 100%;
+}

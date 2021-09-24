@@ -1,0 +1,44 @@
+.block-speciality {
+   &__cover {
+   @media screen and (min-width: 1440px) {
+      width: 1200px;
+      margin: 0 auto;
+      
+   }
+   }
+   &__img {
+      @media screen and (min-width: 1440px) {
+         padding-left: 350px;
+      }
+      &__item {
+         border-radius: 20px;
+      }
+   }
+   &__card {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   &__title {
+      text-align: center;
+      line-height: 40px;
+      color: #004FC7;
+      font-size: 1.125em; //18px;
+      @media screen and (min-width: 1440px) {
+         width: 426px;
+      }
+   }
+   &__text {
+      margin-top: 20px;
+      @include Noto-Sans-italic;
+      line-height: 32px;
+      font-size: 1.0625em; //17px;
+      &__semibold {
+         font-size: 1.0625em; //17px;
+      }
+   }
+}
+.card-body {
+   @media screen and (min-width: 1440px) {
+      width: 556px;
+   }
+}

@@ -1,0 +1,30 @@
+@import "mixin-fonts";
+
+.box-standarteds {
+   background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+      &__title {
+         @include Noto-Sans-bold;
+         margin-top: 34px;
+         font-size: 1.125em; //18px;
+         line-height: 2.5em; //40px;
+         text-align: left;
+         letter-spacing: 2.42px;
+         color: #FBFDFF;
+         @media screen and (min-width: 1440px) {
+            margin-top: 151px;
+         }
+      }
+      &__text{
+         @include Noto-Sans;
+         margin-top: 16px;
+         color: #FBFDFF;
+            &__bold {
+               @include Noto-Sans-bold;
+            }
+               @media screen and (min-width: 1440px) {
+                  max-width: 496px;
+                  margin-top: 22px;
+                  font-size: 1.0625em; //17px;
+               }       
+      }
+}

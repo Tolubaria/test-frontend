@@ -1,0 +1,76 @@
+@import "mixin-fonts";
+@import "variables";
+
+.box-info {
+   background-color: $white-color;   
+   .clients {
+      background-color: $white-color;
+      @media screen and (min-width: 1440px) {
+         width: 1210px;
+         margin: 0 5%;
+      }
+      &__title {
+         padding-top: 27px;
+         margin-bottom: 48px;
+      }
+      &__box {
+         margin: 0 auto;
+      }
+      &__cards {
+         padding-top: 50px;
+         &__box-icon {
+            width: 71px;
+            height: 60px;
+         }
+         &__box-text {
+            width: 261px;  
+         }
+         &__icon {
+            width: 46px;
+            height: 37px;
+         }
+         &__text {
+            @include Noto-Sans;
+            font-weight: 500;
+            font-size: 1.1875em; //19px;
+            color: #45494F;
+         }
+      }
+   } 
+}
+.heading {
+   text-align: center;
+   @include Noto-Sans-bold;
+   font-size: 1.25em; //20px;
+   line-height: 2.5em; //40px;
+   letter-spacing: 4.42px;
+   color: $black-color;
+}
+.col-3 {
+   width: 359px;
+   height: 136px;
+   margin-right: 8px;
+   background: #FFFFFF;
+   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 16px;
+   display: flex;
+   justify-content: center;
+   @media screen and (min-width: 1440px) {
+      width: 393px;
+   }
+}
+.hauptmerkmale {
+   background: #FFFFFF;
+   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 16px;
+   @media screen and (min-width: 1440px) {
+      max-width: 1200px;
+      margin: 0 5%;
+      // margin-top: 57px;
+   }
+}
+.list-group-item {
+   border: 1px solid #FFFFFF;
+   @include  Noto-Sans;
+   line-height: 34.5px;
+}

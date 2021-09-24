@@ -1,0 +1,51 @@
+.img {
+   width: 22.5em; //360px;
+   height: 29.9375em; //479px;
+   border-radius: 8px;
+   @media screen and (min-width: 1440px) {
+      width: 38.125em; //610px;
+      height: 50.8125em; //813px;
+   }
+}
+.scrolling {
+   background-color: #FBFBFC;
+   &__title {
+      padding-top: 32px;
+      margin-bottom: 18px;
+   }
+}
+.carousel {
+   @media screen and (min-width: 1440px) {
+      margin: 0 30%;
+   }
+}
+.carousel-indicators {
+   top: 500px;
+   @media screen and (min-width: 1440px) {
+      top: 830px;
+   }
+}
+.carousel-indicators [data-bs-target] {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #004FC7; 
+}
+.carousel-control-prev, .carousel-control-next {
+   width: 126px;
+   height: 78px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+   border-radius: 8px;
+   @media screen and (min-width: 1440px) {
+      margin-top: 850px;
+   }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   width: 40px;
+   height: 33px;
+   background-color: rgba(0, 69, 203, 0.8);
+}
+.visually-hidden {
+   background-color: rgba(0, 69, 203, 0.8);
+}

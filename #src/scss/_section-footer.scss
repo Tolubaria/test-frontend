@@ -1,0 +1,42 @@
+@import "variables";
+
+.footer {
+   margin-top: 77px;
+   background-color: #FBFBFC;
+   @media screen and (min-width: 1440px) {
+      padding-top: 50px;
+      padding-bottom: 63px;
+   }
+}
+.address {
+   margin-top: 45px;
+   margin-bottom: 17px;
+   @media screen and (min-width: 1440px) {
+      margin: 0px;  
+   }
+}
+.Shortlinks {
+   margin-top: 17px;
+   @media screen and (min-width: 1440px) {
+      margin: 0px;
+   }
+}
+.impressum {
+   @media screen and (min-width: 1440px) {
+      margin-top: 35px;
+   }
+}
+.title  {
+   @include Noto-Sans-bold;
+   font-size: 1em; //16px;
+   line-height: 2em; //32px;
+   letter-spacing: -0.4px;
+   color: #A3ADBA;
+}
+.text {
+   @include Noto-Sans;
+   color: #9EABBB;
+   font-size: 1em; //16px;
+   line-height: 2em; //32px;
+   letter-spacing: -0.4px;
+}

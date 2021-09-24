@@ -1,0 +1,44 @@
+@import "mixin-fonts";
+
+.contacts {
+   &__logo {
+      padding-top: 48px;
+      margin-bottom: 27px;
+      @media screen and (min-width: 1440px) {
+         margin: 131px 90px;
+      }
+   }
+   &__title {
+      @include Noto-Sans-bold;
+      text-align: center;
+      font-size: 1.625em; //26px;
+      line-height: 2.6875em; //43px;
+      letter-spacing: -0.4px;
+      color: #1652AC;
+      @media screen and (min-width: 1440px) {
+         margin-top: 146px;
+      }
+   }
+   &__text {
+      font-weight: 400;
+      margin-top: 32px;
+      @media screen and (min-width: 1440px) {
+         font-size: 1.0625em; //17px;
+      }
+   }
+   &__mailto {
+      text-decoration: none;
+   }
+      &__button {
+         font-size: 1.125; //18px;
+         margin-top: 50px;
+      }
+}
+.arrow {
+   width: 79px;
+   height: 0px;
+   left: 0px;
+   top: 35px;
+   border: 2px solid #FFFFFF;
+   box-sizing: border-box;
+}
