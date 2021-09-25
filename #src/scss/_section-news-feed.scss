@@ -9,12 +9,12 @@
          display: flex;
          justify-content: space-between;
       }
-   }
+}
 .card-title {
    @include Noto-Sans-bold;
    font-size: 2.125em; //34px;
    text-align: center;
-   color: $blue-color;
+   color: $btn-color;
 }
 .fokus-title {
    @include Noto-Sans-bold;
@@ -54,7 +54,7 @@
    font-size: 1em; //16px;
    line-height: 2em; //32px;
    letter-spacing: -0.004em;
-   color: $black-color;
+   color: $color;
       @media screen and (min-width: 1440px) {
          font-size: 1.0625em; //17px;
       }

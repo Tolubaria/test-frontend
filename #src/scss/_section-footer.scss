@@ -27,15 +27,14 @@
    }
 }
 .title  {
-   @include Noto-Sans-bold;
-   font-size: 1em; //16px;
+   font-size: 1.2em; //17px;
    line-height: 2em; //32px;
    letter-spacing: -0.4px;
    color: #A3ADBA;
 }
 .text {
    @include Noto-Sans;
-   color: #9EABBB;
+   color: $lightly-color;
    font-size: 1em; //16px;
    line-height: 2em; //32px;
    letter-spacing: -0.4px;
