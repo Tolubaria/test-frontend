@@ -6,7 +6,7 @@
    .clients {
       background-color: $section-color;
       @media screen and (min-width: 1440px) {
-         width: 1210px;
+         max-width: 1210px;
          margin: 0 5%;
       }
       &__title {
